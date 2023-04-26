@@ -24,7 +24,7 @@ Dictionnary *dictionnary_init(char *filename){
         fclose(f);
         return NULL;
     }
-
+    printf("Comment")
     char *dict_size = malloc(sizeof(char) * 4);
     if(!dict_size){
         fclose(f);
